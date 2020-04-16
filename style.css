@@ -1,0 +1,47 @@
+/* Practice 1: Congressional Representative + UI/UX Challenge */
+.representative{
+    border: 2px solid black;
+    display: flex;
+    flex-basis: 20%;
+    padding: 1em;
+}
+
+.basic{
+    padding: 1em;
+}
+
+.image{
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+}
+
+/* Practice 2: Coffee Houses of Nashville */
+.shop{
+    border: 1px dotted brown;
+    margin: 0.5em;
+    margin-bottom: 0;
+    padding: 0.5em;
+    flex-basis: 25%;
+    justify-content: center;
+}
+
+.list{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+.pageHeader{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    border: 1px solid chocolate;
+}
+
+.coffee{
+    height: 2em;
+}
